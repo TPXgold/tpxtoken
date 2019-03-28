@@ -1,0 +1,59 @@
+{
+  "name": "TPX",
+  "version": "0.0.1",
+  "description": "TPX gold",
+  "main": "truffle.js",
+  "private": true,
+  "engines": {
+    "node": ">=8.9",
+    "npm": ">=5.5"
+  },
+  "scripts": {
+    "compile": "node_modules/.bin/truffle compile",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-contracts": "sol-merger './contracts/*.sol' ./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/eCoinomy/hyperloot.git"
+  },
+  "keywords": [
+    "ethereum",
+    "smartcontract"
+  ],
+  "author": "tailorSwift team",
+  "license": "UNLICENSED",
+  "homepage": "https://bitbucket.org/Ivan_Zaharov/TPX#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-npm-module-example": "^1.0.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.17.0",
+    "babel-register": "^6.23.0",
+    "chai-as-promised": "^7.1.1",
+    "express": "^4.16.3",
+    "ganache-cli": "^6.1.3",
+    "npm-check": "^5.6.0",
+    "solc": "0.4.24",
+    "truffle": "4.1.11",
+    "truffle-contract": "3.0.5",
+    "web3": "1.0.0-beta.34"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.17.0",
+    "babel-register": "^6.23.0",
+    "chai": "^4.1.2",
+    "chai-bignumber": "^2.0.2",
+    "sol-merger": "^0.1.2",
+    "solidity-coverage": "^0.5.5",
+    "solium-config-consensys": "0.0.0"
+  }
+}
